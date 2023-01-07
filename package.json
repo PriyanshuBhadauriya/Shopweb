@@ -1,5 +1,6 @@
 {
-  "name": "design-practice",
+  "name": "shopweb",
+  "homepage": "https://PriyanshuBhadauriya.github.io/shopwebb",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8000",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "gh-pages": "^4.0.0",
     "mongoose": "^6.8.0",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
@@ -20,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,3 +48,4 @@
     ]
   }
 }
+
