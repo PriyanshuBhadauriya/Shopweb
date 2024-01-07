@@ -24,9 +24,9 @@ const Contact =() =>
   console.log(err);
         }
     }
-    useEffect (() =>{
-        callContactPage();
-    },[]);
+     useEffect (() =>{
+         callContactPage();
+ },[]);
    
     let name,value;
     const handleInput=(e) =>{
